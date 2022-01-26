@@ -29,7 +29,7 @@ function NavBar() {
       <button>
         <Link to="/transactions/new">New Transaction</Link>
       </button>
-      <h3>{total}</h3>
+      <h3> Balance $ {total}</h3>
     </nav>
   );
 }
