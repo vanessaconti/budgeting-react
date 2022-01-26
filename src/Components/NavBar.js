@@ -24,7 +24,9 @@ function NavBar() {
   return (
     <nav>
       <h1>
-        <Link to="/transactions">Budgeting App</Link>
+        <Link to="/transactions">
+          Budgeting App, Click here for Transactions
+        </Link>
       </h1>
       <button>
         <Link to="/transactions/new">New Transaction</Link>
